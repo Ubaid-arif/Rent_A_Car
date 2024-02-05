@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+    background-image: url("assets/image/BgImage.jpeg");
+   color: beige;
+   height: 100%;
+   width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+ 
+.Error {
+  color: red;
+  margin: 5px 0 0;
+  font-size: 8px;
+  font-weight: bold;
+}
+h1{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+.Container{
+  height: 70vh;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+ border: 1px rgba(0, 0, 0, 0.192) solid;
+}
+
+.profileDetail{
+  text-align: center;
+  font-size:  15px;
+  font-weight: bold;
+}
+
+.profileDetail  h3 {
+padding-top: 15px;
+}
+
+.profileDetail  p  {
+  padding-top: 10px;
+  color: black;
+  font-style: italic;
+
+}
+
+.SecondaryButton{
+background-color: rgb(65, 134, 65);
+padding: 15px;
+border: 1px;
+height: 45px;
+width: 120px;
+border-radius: 40px;
+font-weight: bold;
+}
